@@ -1,0 +1,25 @@
+.products-title {
+  width: 100%;
+  font-size: 54px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.product-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .product-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
